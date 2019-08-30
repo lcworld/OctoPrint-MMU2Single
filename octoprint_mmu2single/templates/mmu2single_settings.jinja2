@@ -1,0 +1,20 @@
+<form class="form-horizontal">
+    <h3>{{ _('MMU2 Single profile management') }}</h3>
+    <p>{{ _('Allow to change Tx (and T?) by the right filament.') }}</p>
+    <div class="control-group">
+        <label class="control-label">{{ _('Numbers of filaments/extruders') }}</label>
+        <div class="controls">
+            <input type="text" data-bind="value: nbFilaments">
+        </div>
+    </div>
+    <div class="control-group">
+        <label class="control-label">{{ _('Filament to use') }}</label>
+        <div class="controls">
+            <select data-bind="options: filamentsList, 
+                               optionsText: function(item) {
+                                    return 'Filament '+ (item+1)
+                                    },
+                               value: filamentToUse"></select>
+        </div>
+    </div>
+</form>
