@@ -1,6 +1,7 @@
 # OctoPrint-MMU2Single
 A plugin to manage selection of filament (Tx) in GCode from Prus aSlicer for MMU2 Single profile
 
+**TODO:** Full implementation of the tool - not yet working.
 **TODO:** Describe what your plugin does.
 
 ## Setup
